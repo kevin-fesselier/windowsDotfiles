@@ -3,6 +3,9 @@ Set-Alias l ls -Force
 Set-Alias ll ls
 Set-Alias p pwd
 
+function CdHome{ & cd ~} 
+New-Alias -Name h -Value CdHome -Force -Option AllScope 
+
 function GitStatus { & git status} 
 New-Alias -Name gs -Value GitStatus -Force -Option AllScope 
 
