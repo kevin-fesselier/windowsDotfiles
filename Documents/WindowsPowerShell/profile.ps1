@@ -1,3 +1,6 @@
+Import-Module PSReadLine
+Set-PSReadLineOption -PredictionSource History
+
 Set-Alias c cls
 Set-Alias l ls -Force
 Set-Alias ll ls
