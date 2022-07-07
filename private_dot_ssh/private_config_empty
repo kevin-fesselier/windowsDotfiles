@@ -1,0 +1,15 @@
+Host vpsweb
+	Hostname 
+	Port 22
+	User 
+
+Host vps1
+	Hostname 
+	Port 22
+	User 
+
+Host vps2
+	Hostname 
+	Port 22
+	User 
+
