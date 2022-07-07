@@ -5,7 +5,6 @@ Set-PSReadLineOption -PredictionSource History
 
 #
 #prompt
-#oh-my-posh init pwsh | Invoke-Expression
 oh-my-posh init pwsh --config ~\Documents\WindowsPowerShell\mytheme.omp.json | Invoke-Expression
 
 #alias
