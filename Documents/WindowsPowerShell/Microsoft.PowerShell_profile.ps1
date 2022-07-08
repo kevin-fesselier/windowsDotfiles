@@ -33,4 +33,4 @@ function GitPush { & git push}
 New-Alias -Name gp -Value GitPush -Force -Option AllScope 
 
 function CdChezMoi { & cd ~\.local\share\chezmoi} 
-New-Alias -Name cm -Value CdChezMoi -Force -Option AllScope 
+New-Alias -Name cmcd -Value CdChezMoi -Force -Option AllScope 
