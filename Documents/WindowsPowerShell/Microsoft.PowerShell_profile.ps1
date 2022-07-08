@@ -4,8 +4,9 @@ Import-Module PSReadLine
 Set-PSReadLineOption -PredictionSource History
 
 #
-#prompt
+#prompt & icons
 oh-my-posh init pwsh --config ~\Documents\WindowsPowerShell\mytheme.omp.json | Invoke-Expression
+Import-Module Terminal-Icons
 
 #alias
 Set-Alias c cls
