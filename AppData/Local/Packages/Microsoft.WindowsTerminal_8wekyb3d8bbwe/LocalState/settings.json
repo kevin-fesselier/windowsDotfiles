@@ -4,6 +4,14 @@
     "actions": 
     [
         {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "right"
+            },
+            "keys": "ctrl+t"
+        },
+        {
             "command": "paste",
             "keys": "ctrl+v"
         },
@@ -16,8 +24,24 @@
             "keys": "ctrl+c"
         },
         {
+            "command": "unbound",
+            "keys": "alt+shift+plus"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+shift+right"
+        },
+        {
             "command": "find",
             "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "right"
+            },
+            "keys": "alt+)"
         },
         {
             "command": 
@@ -80,18 +104,6 @@
                 "scrollbarState": "hidden",
                 "source": "Windows.Terminal.Wsl",
                 "useAcrylic": true
-            },
-            {
-                "guid": "{3d50ca18-bd2b-5607-b775-fac30b6ba147}",
-                "hidden": true,
-                "name": "Developer Command Prompt for VS 2019",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{24770634-d681-5916-b61b-134dcb2b73b6}",
-                "hidden": true,
-                "name": "Developer PowerShell for VS 2019",
-                "source": "Windows.Terminal.VisualStudio"
             },
             {
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
