@@ -8,6 +8,7 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 #prompt & icons
 oh-my-posh init pwsh --config ~\Documents\WindowsPowerShell\mytheme.omp.json | Invoke-Expression
 Import-Module Terminal-Icons
+Set-TerminalIconsTheme -ColorTheme devblackops_light 
 
 #alias
 Set-Alias c cls
