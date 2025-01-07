@@ -8,7 +8,6 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 #prompt & icons
 oh-my-posh init pwsh --config ~\Documents\WindowsPowerShell\mytheme.omp.json | Invoke-Expression
 Import-Module Terminal-Icons
-Set-TerminalIconsTheme -ColorTheme devblackops_light 
 
 #alias
 Set-Alias c cls
@@ -18,6 +17,14 @@ Set-Alias p pwd
 
 #
 #functions
+
+function GitAll { 
+git add -u ;
+git commit -m '.';
+git push;
+} 
+New-Alias -Name gg -Value GitAll -Force -Option AllScope 
+
 function CdHome{ & cd ~} 
 New-Alias -Name h -Value CdHome -Force -Option AllScope 
 
