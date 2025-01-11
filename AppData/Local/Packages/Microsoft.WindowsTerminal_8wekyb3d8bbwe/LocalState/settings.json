@@ -18,7 +18,23 @@
         },
         {
             "command": "unbound",
-            "keys": "alt+shift+right"
+            "keys": "ctrl+shift+c"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+shift+minus"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+d"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+shift+0"
         },
         {
             "command": 
@@ -46,8 +62,16 @@
                 "split": "auto",
                 "splitMode": "duplicate"
             },
-            "id": "User.splitPane.A6751878",
-            "keys": "alt+shift+d"
+            "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "down"
+            },
+            "id": "User.splitPane.D5151347",
+            "keys": "ctrl+d"
         },
         {
             "command": 
@@ -56,9 +80,10 @@
                 "direction": "right"
             },
             "id": "User.resizePane.87C324ED",
-            "keys": "alt+shift+0"
+            "keys": "alt+shift+right"
         }
     ],
+    "autoHideWindow": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -98,6 +123,7 @@
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
+                "intenseTextStyle": "bold",
                 "name": "Windows PowerShell",
                 "opacity": 100,
                 "scrollbarState": "hidden",
@@ -189,6 +215,8 @@
             "yellow": "#E5C07B"
         }
     ],
+    "showTabsInTitlebar": true,
+    "showTerminalTitleInTitlebar": true,
     "theme": "system",
     "themes": [],
     "useAcrylicInTabRow": false,
